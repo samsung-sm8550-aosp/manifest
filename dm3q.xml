@@ -8,4 +8,7 @@
     <project name="luka177/android_kernel_qcom_sm8550" path="kernel/samsung/sm8550" revision="lineage-21" remote="github"/>
     <project name="luka177/android_kernel_samsung_sm8550-modules" path="kernel/samsung/sm8550-modules" revision="lineage-21" remote="github"/>
     <project name="luka177/android_kernel_samsung_sm8550-devicetree" path="kernel/samsung/sm8550-devicetree" revision="lineage-21" remote="github"/>
+
+    <!-- Common hardware -->
+    <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" revision="lineage-21" remote="github"/>
 </manifest>
