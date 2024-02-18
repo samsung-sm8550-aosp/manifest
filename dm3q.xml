@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!--Device tree-->
-    <project name="samsung-sm8550-aosp/android_device_samsung_dm3q" path="device/samsung/sm8550-common" revision="lineage-21" remote="github"/>
-    <project name="luka177/android_device_samsung_dm3q" path="device/samsung/dm3q" revision="lineage-21" remote="github"/>
+    <project name="luka177/android_device_samsung_sm8550-common" path="device/samsung/sm8550-common" revision="lineage-21" remote="github"/>
+    <project name="samsung-sm8550-aosp/android_device_samsung_dm3q" path="device/samsung/dm3q" revision="lineage-21" remote="github"/>
 
     <!-- Kernel -->
     <project name="luka177/android_kernel_qcom_sm8550" path="kernel/samsung/sm8550" revision="lineage-21" remote="github"/>
