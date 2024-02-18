@@ -8,7 +8,7 @@ export CCACHE_EXEC=/usr/bin/ccache
 
 source build/envsetup.sh
 
-breakfast lineage_dm3q-userdebug
+breakfast evolution_dm3q-userdebug
 croot
-brunch lineage_dm3q-userdebug
+brunch evolution_dm3q-userdebug
 ```
