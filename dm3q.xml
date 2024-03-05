@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="gitlab" fetch="https://gitlab.com" />
-
     <!--Device tree-->
-    <project name="luka177/android_device_samsung_sm8550-common" path="device/samsung/sm8550-common" revision="lineage-21" remote="github"/>
-    <project name="samsung-sm8550-aosp/android_device_samsung_dm3q" path="device/samsung/dm3q" revision="lineage-21" remote="github"/>
+    <project name="samsung-sm8550-aosp/android_device_samsung_sm8550-common" path="device/samsung/sm8550-common" revision="PE-14" remote="github"/>
+    <project name="samsung-sm8550-aosp/android_device_samsung_dm3q" path="device/samsung/dm3q" revision="PE-14" remote="github"/>
 
     <!-- Kernel -->
-    <project name="luka177/android_kernel_qcom_sm8550" path="kernel/samsung/sm8550" revision="staging/lineage-21-1-merge" remote="github"/>
-    <project name="luka177/android_kernel_samsung_sm8550-modules" path="kernel/samsung/sm8550-modules" revision="lineage-21" remote="github"/>
-    <project name="luka177/android_kernel_samsung_sm8550-devicetree" path="kernel/samsung/sm8550-devicetree" revision="lineage-21" remote="github"/>
-
-    <!-- Vendor -->
-    <project name="luuxis1/android_vendor_samsung_sm8550-common" path="vendor/samsung/sm8550-common" revision="lineage-21" remote="gitlab"/>
-    <project name="luuxis1/android_vendor_samsung_dm3q" path="vendor/samsung/dm3q" revision="lineage-21" remote="gitlab"/>
+    <project name="samsung-sm8550-aosp/android_kernel_qcom_sm8550" path="kernel/samsung/sm8550" revision="PE-14" remote="github"/>
+    <project name="samsung-sm8550-aosp/android_kernel_samsung_sm8550-modules" path="kernel/samsung/sm8550-modules" revision="PE-14" remote="github"/>
+    <project name="samsung-sm8550-aosp/android_kernel_samsung_sm8550-devicetree" path="kernel/samsung/sm8550-devicetree" revision="PE-14" remote="github"/>
 </manifest>
